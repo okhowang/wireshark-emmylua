@@ -14,7 +14,7 @@ Add local repository directory as lua library to project
 
 ## TODO
 - [ ] 11.1. Saving Capture Files
-- [ ] 11.3. GUI Support
+- [x] 11.3. GUI Support
 - [ ] 11.4. Post-Dissection Packet Analysis
 - [ ] 11.9. Custom File Format Reading And Writing
 - [ ] 11.10. Directory Handling Functions
