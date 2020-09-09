@@ -284,7 +284,7 @@ end
 local function UInt64Fromhex(hex)
 end
 
-Uint64 = {
+UInt64 = {
     decode = UInt64Decode,
     new = UInt64New,
     max = UInt64Max,
