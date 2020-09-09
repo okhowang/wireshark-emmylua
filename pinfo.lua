@@ -26,10 +26,10 @@
 ---@field src any Mode: Retrieve or assign. Source Address of this Packet.
 ---@field dst any Mode: Retrieve or assign. Destination Address of this Packet.
 ---@field match any Mode: Retrieve only. Port/Data we are matching.
----@field columns any Mode: Retrieve only. Access to the packet list columns.
----@field cols any Mode: Retrieve only. Access to the packet list columns (equivalent to pinfo.columns).
+---@field columns Columns Mode: Retrieve only. Access to the packet list columns.
+---@field cols Columns Mode: Retrieve only. Access to the packet list columns (equivalent to pinfo.columns).
 ---@field public private any Mode: Retrieve only. Access to the private table entries.
 ---@field hi any Mode: Retrieve only. Higher Address of this Packet.
 ---@field lo any Mode: Retrieve only. Lower Address of this Packet.
----@field conversation any Mode: Assign only. Sets the packet conversation to the given Proto object.
+---@field conversation Proto Mode: Assign only. Sets the packet conversation to the given Proto object.
 local pinfo = Class()

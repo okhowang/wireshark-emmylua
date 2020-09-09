@@ -13,11 +13,11 @@ Clone this repository to local.
 Add local repository directory as lua library to project
 
 ## TODO
-- [ ] 11.1. Saving Capture Files
+- [x] 11.1. Saving Capture Files
 - [x] 11.3. GUI Support
-- [ ] 11.4. Post-Dissection Packet Analysis
-- [ ] 11.9. Custom File Format Reading And Writing
-- [ ] 11.10. Directory Handling Functions
-- [ ] 11.11. Utility Functions
-- [ ] 11.13. Binary encode/decode support
-- [ ] 11.14. GLib Regular Expressions
+- [x] 11.4. Post-Dissection Packet Analysis
+- [x] 11.9. Custom File Format Reading And Writing
+- [x] 11.10. Directory Handling Functions
+- [x] 11.11. Utility Functions
+- [x] 11.13. Binary encode/decode support
+- [x] 11.14. GLib Regular Expressions
